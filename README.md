@@ -1,4 +1,6 @@
 # CDN maintenance toggle script
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fcdn-maintenance-toggle.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fcdn-maintenance-toggle?ref=badge_shield)
+
 
 This script disables/enables CDN services operating on AWS Cloudfront by
 setting them into maintenance mode, implemented as a Cloudfront edge function
@@ -51,3 +53,7 @@ pip install --user boto3 trieregex
 The HTML template `lfx-maintenance.html` is provided as an example of an outage
 page used by the Linux Foundation for LFX Platform maintanance. Remove any
 Linux Foundation / LFX branding before using this with any other sites.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falialobidm%2Fcdn-maintenance-toggle.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Falialobidm%2Fcdn-maintenance-toggle?ref=badge_large)
